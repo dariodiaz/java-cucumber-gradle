@@ -1,6 +1,5 @@
 package JavaCucumberGradle.steps;
 
-import org.junit.After;
 import org.junit.Assert;
 
 import JavaCucumberGradle.pages.GooglePage;

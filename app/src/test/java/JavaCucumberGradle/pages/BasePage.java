@@ -2,7 +2,6 @@ package JavaCucumberGradle.pages;
 
 import java.util.List;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;

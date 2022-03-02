@@ -1,7 +1,5 @@
 package JavaCucumberGradle.pages;
 
-import org.openqa.selenium.WebDriver;
-
 public class GooglePage extends BasePage{
 
     private String searchButton = "//input[@value='Buscar con Google']";
