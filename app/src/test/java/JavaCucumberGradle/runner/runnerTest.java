@@ -14,8 +14,8 @@ import io.cucumber.junit.CucumberOptions;
     glue = "JavaCucumberGradle.steps",
     monochrome = true,
     // plugin ={"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "json:target/cucumber-reports.json"}
-    plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "summary"}
-    // tags = {"@Cart"}
+    plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "summary"},
+    tags = "not @Sandbox"
 )
 
 public class runnerTest {
